@@ -1,0 +1,28 @@
+# For users plugins, you must refresh taiHEN from HENkaku Settings for
+# changes to take place.
+# For kernel plugins, you must reboot for changes to take place.
+*KERNEL
+ux0:adrenaline/adrenaline.skprx
+ux0:tai/nonpdrm.skprx
+#ux0:tai/vconsole_net.skprx
+#ux0:tai/vconsole_usb.skprx
+ux0:tai/vitaUsbtty.skprx
+# henkaku.skprx is hard-coded to load and is not listed here
+
+*main
+# main is a special titleid for SceShell
+ur0:tai/henkaku.suprx
+#ux0:tai/vconsole.suprx
+
+*NPXS10015
+# this is for modifying the version string
+ur0:tai/henkaku.suprx
+
+*NPXS10016
+# this is for modifying the version string in settings widget
+ur0:tai/henkaku.suprx
+
+*NPEZ00104
+ux0:adrenaline/adrenaline.suprx
+
+*ALL
